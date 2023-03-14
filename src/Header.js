@@ -10,11 +10,26 @@ import {
 
 import logo from "./assets/Logo.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
+//import { Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from './Pages/Home'; 
+import Contacts from './Pages/Contacts'; 
+import About from './Pages/About'; 
+import Blog from './Pages/Blog';
 
 export default class Header extends Component {
     render() {
         return (
             <>
+            <Router> 
+                <Routes> 
+                    <Route path="/" element={<Home />}/>
+                    <Route path="/about" element={<About/>}/>
+                    <Route path="/contacts" element={<Contacts/>}/>
+                    <Route path="/blog" element={<Blog/>}/>
+                </Routes>
+            </Router>
             <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="/">
