@@ -10,7 +10,6 @@ import {
 
 import logo from "./assets/Logo.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { Route } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from './Pages/Home'; 
