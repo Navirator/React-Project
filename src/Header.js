@@ -7,6 +7,9 @@ import Home from './Pages/Home';
 import Contacts from './Pages/Contacts';
 import About from './Pages/About';
 import Blog from './Pages/Blog';
+import Developers from './Pages/Developers';
+import Naturalists from './Pages/Naturalists';
+import Marketers from './Pages/Marketers';
 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
@@ -110,6 +113,10 @@ export default function Header() {
                 <Route path="/about" element={<About />}/>
                 <Route path="/contacts" element={<Contacts />}/>
                 <Route path="/blog" element={<Blog />}/>
+
+                <Route path="/Developers" element={<Developers />}/>
+                <Route path="/Naturalists" element={<Naturalists />}/>
+                <Route path="/Marketers" element={<Marketers />}/>
             </Routes>
         </Router>
         

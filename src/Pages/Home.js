@@ -21,7 +21,7 @@ class Home extends Component {
                             <Card.Body>
                                 <Card.Title>Developers</Card.Title>
                                 <Card.Text>Команда 1</Card.Text>
-                                <Button variant="primary">About team</Button>
+                                <Button variant="primary" href='/Developers'>About team</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -33,7 +33,7 @@ class Home extends Component {
                             <Card.Body>
                                 <Card.Title>Природознавці</Card.Title>
                                 <Card.Text>Команда 2</Card.Text>
-                                <Button variant="primary">About team</Button>
+                                <Button variant="primary" href='/Naturalists'>About team</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -45,7 +45,7 @@ class Home extends Component {
                             <Card.Body>
                                 <Card.Title>Маркетилоги</Card.Title>
                                 <Card.Text>Команда 3</Card.Text>
-                                <Button variant="primary">About team</Button>
+                                <Button variant="primary" href='/Marketers'>About team</Button>
                             </Card.Body>
                         </Card>
                     </div>
