@@ -11,6 +11,10 @@ import Developers from './Pages/Developers';
 import Naturalists from './Pages/Naturalists';
 import Marketers from './Pages/Marketers';
 
+import Blog1 from './Pages/Blog/Blog1';
+import Blog2 from './Pages/Blog/Blog2';
+import Blog3 from './Pages/Blog/Blog3';
+
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 export default function Header() {
