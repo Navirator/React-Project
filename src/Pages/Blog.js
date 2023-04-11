@@ -5,7 +5,9 @@ class Blog extends Component {
     render() {
         return (
             <Row>
+                <h1 className="textcenter m-4"></h1>
                 <Col md="9">
+                    
                     <div className="d-flex align-items-center me-5">
                         <div className="flex-shrink-0">
                             <img 
@@ -16,7 +18,7 @@ class Blog extends Component {
                                 alt="photo" />
                         </div>
                         <div className="flex-grow-1 ms-3">
-                            <h5 href='/Blog1'>Blog post 1</h5>
+                            <h5><a href='/blog/blog1'>Blog post 1</a></h5>
                             <p> Lorem </p>
                         </div>
                     </div>
@@ -31,7 +33,7 @@ class Blog extends Component {
                                 alt="photo" />
                         </div>
                         <div className="flex-grow-1 ms-3">
-                            <h5 href='/Blog2'>Blog post 2</h5>
+                            <h5><a href='/blog/blog2'>Blog post 2</a></h5>
                             <p> Lorem </p>
                         </div>
                     </div>
@@ -46,7 +48,7 @@ class Blog extends Component {
                                 alt="photo" />
                         </div>
                         <div className="flex-grow-1 ms-3">
-                            <h5 href='/Blog3'>Blog post 3</h5>
+                            <h5><a href='/blog/blog3'>Blog post 3</a></h5>
                             <p> Lorem </p>
                         </div>
                     </div>
