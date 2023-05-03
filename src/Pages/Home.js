@@ -49,6 +49,17 @@ class Home extends Component {
                             </Card.Body>
                         </Card>
                     </div>
+
+                    //03.05.2023
+                    <div>
+                        <div className="world">
+                            <a>ya ebal v rot etogo kazino</a>
+                            <a className="suka"> tut react ne stavitca, i chto mne delat?! a?!</a>
+                            <a className="suka2"> tut dazhe ebuchiy vsCode ne stavitca, mb eto iz-za windi7?</a>
+                            <a>hotchu domoi otpustite pojalusta. kto ya?i chto tut delayuu? ya ne znayuu ctho mne delat</a>
+                        </div>
+                    </div>
+                    //end
                 </div>                
             </Container>
             </>
